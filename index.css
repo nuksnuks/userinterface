@@ -48,3 +48,10 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+.knap {
+  background: #00454E;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
