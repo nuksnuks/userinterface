@@ -6,12 +6,13 @@ body {
   display: flex;
   flex-direction:row-reverse;
   background-color: #00454E;
-  color: #d0ded8;
+  color: #E4F1F0;
   font-size: 20px;
   padding: 0.1%;
   position: fixed;
   bottom: 0;
   width: 100%;}
+  /* footer end*/
 
 
 #container {
