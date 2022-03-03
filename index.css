@@ -26,10 +26,6 @@ body {
 }
 
 #header {
-<<<<<<< HEAD
-  background-color: tomato;
-
-=======
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
