@@ -1,5 +1,8 @@
 body {
   background-color: #E4F1F0;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 /* Footer*/
 #footer{
@@ -10,7 +13,7 @@ body {
   font-size: 20px;
   padding: 0.1%;
   position: static;
- 
+
   width: 100%;}
   /* footer end*/
 
