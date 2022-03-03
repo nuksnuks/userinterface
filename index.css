@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-areas:
     'header'
-    'menu'
     'main'
+    'menu'
     'footer';
 }
