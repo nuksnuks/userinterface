@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #E4F1F0;
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 100;
   padding: none;
+  height: 2000px;
 }
 /* Footer*/
 #footer{
@@ -13,11 +18,11 @@ body {
   align-items: center;
   background-color: #00454E;
   color: #E4F1F0;
-  position: absolute;
-  width: 100%;
+  width: 97%;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 0;
-  left: 0;
   }
 
 .footerbilleder{
@@ -45,19 +50,38 @@ body {
   align-items: flex-start;
 }
 
-img {
-  max-width: 40px;
-  max-height: 40px;
+.Some {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #logo {
   max-width: 100px;
   max-height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#preview {
+  width: 97%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  object-fit: cover;
+  border-radius: 1%;
 }
 
 #menu {
   display: flex;
   flex-direction: column;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .knap {
@@ -66,5 +90,6 @@ img {
   background: #00454E;
   border: none;
   padding: 10px;
-  margin: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
