@@ -7,7 +7,10 @@ body {
 }
 /* Footer*/
 #footer{
+  display: flex;
   flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
   background-color: #00454E;
   color: #E4F1F0;
   position: absolute;
