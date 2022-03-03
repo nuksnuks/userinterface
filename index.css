@@ -8,13 +8,11 @@ body {
 /* Footer*/
 #footer{
   display: flex;
-  flex-direction:row-reverse;
+  flex-direction:row;
   background-color: #00454E;
   color: #E4F1F0;
-  font-size: 20px;
   padding: 0.1%;
   position: static;
-
   width: 100%;}
   /* footer end*/
 
