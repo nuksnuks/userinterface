@@ -12,7 +12,8 @@ body {
   color: #E4F1F0;
   position: static;
   width: 100%;
-  height: 50px;}
+  height: 50px;
+  bottom: 0;}
 
 .footerbilleder{
   height: 40px;
