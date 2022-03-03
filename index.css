@@ -57,3 +57,7 @@ img {
   padding: 10px;
   margin: 5px;
 }
+
+#main {
+  background-color: green;
+}
