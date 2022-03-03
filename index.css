@@ -26,6 +26,24 @@ body {
 }
 
 #header {
+<<<<<<< HEAD
   background-color: tomato;
 
+=======
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#logo {
+  max-width: 100px;
+  max-height: 100px;
+>>>>>>> header
 }
