@@ -43,3 +43,8 @@ img {
   max-height: 100px;
 >>>>>>> header
 }
+
+#menu {
+  display: flex;
+  flex-direction: column;
+}
