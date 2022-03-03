@@ -2,7 +2,7 @@ body {
   background-color: #E4F1F0;
 }
 /* Footer*/
-.footer{
+#footer{
   display: flex;
   flex-direction:row-reverse;
   background-color: #00454E;
