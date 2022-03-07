@@ -27,8 +27,9 @@ body {
   }
 
 .footerbilleder{
-  height: 40px;
-  width: 40px;
+  padding-top: 5px;
+  height: 25px;
+  width: 25px;
 }
   /* footer end*/
 
