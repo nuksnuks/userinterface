@@ -43,6 +43,11 @@ body {
     'footer';
 }
 
+.container-b {
+  display: flex;
+  justify-content: space-between;
+}
+
 #header {
   display: flex;
   flex-direction: row;
@@ -109,5 +114,30 @@ body {
 }
 
 .guidetitel {
+  align-self: center;
+}
+
+.guidetext {
+  font-size: 3vw;
+  color: #00454E;
+}
+
+.breadcrumbing {
+  height: 30px;
+  width: 80px;
+  border: #00454E;
+  border-style: solid;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-width: 3px;
+}
+
+.left {
+  margin-left: 20px;
+  align-self: center;
+}
+
+.right {
+  margin-right: 20px;
   align-self: center;
 }
