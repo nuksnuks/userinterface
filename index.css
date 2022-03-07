@@ -175,3 +175,8 @@ button:hover {
   background-color: antiquewhite;
   color:#00454E;
 }
+
+#slideshow {
+  max-width: 300px;
+  max-height: 500px;
+}
