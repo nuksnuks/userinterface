@@ -123,8 +123,8 @@ body {
 }
 
 .breadcrumbing1 {
-  height: 30px;
-  width: 80px;
+  height: 5vw;
+  width: 15vw;
   border: #00454E;
   border-style: solid;
   margin-top: 5px;
@@ -133,8 +133,8 @@ body {
 }
 
 .breadcrumbing2 {
-  height: 30px;
-  width: 80px;
+  height: 5vw;
+  width: 15vw;
   border: #00454E;
   border-style: solid;
   margin-top: 5px;
@@ -143,8 +143,8 @@ body {
 }
 
 .breadcrumbing3 {
-  height: 30px;
-  width: 80px;
+  height: 5vw;
+  width: 15vw;
   border: #00454E;
   border-style: solid;
   margin-top: 5px;
