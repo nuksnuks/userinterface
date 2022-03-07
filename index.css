@@ -66,9 +66,21 @@ body {
   margin-right: 85px;
 }
 
-#preview {
+#preview1 {
   width: 97%;
   height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  object-fit: cover;
+  border-radius: 1%;
+}
+
+#preview2 {
+  width: 97%;
+  height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
