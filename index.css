@@ -177,8 +177,12 @@ button:hover {
 }
 
 #slideshow {
-  max-width: 300px;
-  max-height: 500px;
+  width: 95%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
 }
 
 #overlay {

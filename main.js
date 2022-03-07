@@ -1,39 +1,45 @@
-//function forward() {
+  const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree]
 
-//var col=document.getElementById("breadcrumbing1");
-//col.style.backgroundColor="#00454E";
-//}
+  var i = 0;
+  const images = [
+    'billeder/placeholders/placeholder1.png',
+    'billeder/placeholders/placeholder2.png',
+    'billeder/placeholders/placeholder3.png'
+  ];
+  
+    function forward(){
+  
+      if(i < images.length - 1){
+        i++;
+      }
 
-//function backward() {
+      document.slide.src = images[i];
+      breadcrumbs[i].style.backgroundColor = "#00454E";
+    }
+    window.onload = forward;
 
-   //var col=document.getElementById("breadcrumbing1");
-   //col.style.backgroundColor="#00000000";
-   //}
+    function backward(){
+        i--;
+      if(i < 0){
+        i = 0
+      }
+      document.slide.src = images[i];
+      breadcrumbs[i+1].style.backgroundColor = null;
+    }
+    window.onload = backward;
 
-   var i = 0;
-   var images = [];
-
-
-   images[0] = 'billeder/facebook.png';
-   images[1] = 'billeder/ttnl.jpg';
-   images[2] = 'billeder/Twitter.png';
-
-   function skift(){
-     document.slide.src = images[i];
-
-     if(i < images.length - 1){
-       i++;
-     } else {
-       i = 0;
-     }
-   }
-
-   window.onload = skift;
-
-   function on() {
-     document.getElementById("overlay").style.display = "block";
-   }
-   
+  function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+    
   function off() {
     document.getElementById("overlay").style.display = "none";
   }
+  
+  breadcrumbOne.style.backgroundColor = "#00454E";
+
+// const backward = document.getElementById("left");
+// const forward = document.getElementById("right");
+// const breadcrumbOne = document.getElementsByClassName("breadcrumbing1");
+// const breadcrumbTwo = document.getElementById("breadcrumbTwo");
+// const breadcrumbThree = document.getElementById("breadcrumbThree");
