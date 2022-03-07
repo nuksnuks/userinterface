@@ -122,7 +122,27 @@ body {
   color: #00454E;
 }
 
-.breadcrumbing {
+.breadcrumbing1 {
+  height: 30px;
+  width: 80px;
+  border: #00454E;
+  border-style: solid;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-width: 3px;
+}
+
+.breadcrumbing2 {
+  height: 30px;
+  width: 80px;
+  border: #00454E;
+  border-style: solid;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-width: 3px;
+}
+
+.breadcrumbing3 {
   height: 30px;
   width: 80px;
   border: #00454E;
