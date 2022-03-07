@@ -46,6 +46,7 @@ body {
 .container-b {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 #header {
@@ -144,6 +145,14 @@ body {
 }
 
 button {
-  background-color: #00454E00;
+  background-color: #00454E;
+  color: #FEFEFE;
+  border: 0;
   border-radius: 5px;
+  margin-top: 4px;
+}
+
+button:hover {
+  background-color: antiquewhite;
+  color:#00454E;
 }
