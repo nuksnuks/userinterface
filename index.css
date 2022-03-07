@@ -134,9 +134,16 @@ body {
 .left {
   margin-left: 20px;
   align-self: center;
+  font-size: 5vw;
 }
 
 .right {
   margin-right: 20px;
   align-self: center;
+  font-size: 5vw;
+}
+
+button {
+  background-color: #00454E00;
+  border-radius: 5px;
 }
