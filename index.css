@@ -176,11 +176,11 @@ button:hover {
   color:#00454E;
 }
 
-<<<<<<< HEAD
 #slideshow {
   max-width: 300px;
   max-height: 500px;
-=======
+}
+
 #overlay {
   position: fixed; /* Sit on top of the page content */
   display: none; /* Hidden by default */
@@ -207,5 +207,4 @@ button:hover {
 
 #knap{
   border: none;
->>>>>>> ab3924f664f2ebabefdc25bf39b963f00a75e07a
 }
