@@ -127,10 +127,11 @@ body {
 .guidetext {
   font-size: 3vw;
   color: #00454E;
+  margin: 15px;
 }
 
 .breadcrumbing1 {
-  height: 5vw;
+  height: 40px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
@@ -140,7 +141,7 @@ body {
 }
 
 .breadcrumbing2 {
-  height: 5vw;
+  height: 40px;  
   width: 15vw;
   border: #00454E;
   border-style: solid;
@@ -150,7 +151,7 @@ body {
 }
 
 .breadcrumbing3 {
-  height: 5vw;
+  height: 40px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
