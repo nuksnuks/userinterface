@@ -5,7 +5,7 @@ var i = 0;
 const images = [
   'billeder/placeholders/placeholder1.png',
   'billeder/placeholders/placeholder2.png',
-  'billeder/placeholders/placeholder3.png'
+  'billeder/placeholders/placeholder3.png',
 ];
 
   function forward(){
