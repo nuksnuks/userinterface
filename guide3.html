@@ -9,16 +9,14 @@
     <title>Se Lektier</title>
   </head>
   <body>
-      <div id="container">
-        <div id="header"><img id="logo" src="billeder/logo-its.png" alt="Guidens logo"><div>
-          <h3 class="guidetitel">Hvor finder jeg mine lektier?</h3>
-        </div>
+    <div id="container">
+      <div id="header">
+        <img onclick="document.location='index.html'" id="logo" src="billeder/logo-its.png" alt="Guidens logo">
+        <h1 class="guidetitel"> Se Klasseliste </h1>
       </div>
-
-        <div id="main">
-          <img src="billeder/ttnl.jpg" alt="preview" id="preview1">
-        </div>
-
+      <div id="main">
+        <img id="slideshow" name="slide">
+      </div>
       <div id="menu" class="guidetext">
         <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Illum sed officia nostrum mollitia alias nesciunt laboriosam inventore iusto,
@@ -26,11 +24,11 @@
       </div>
 
       <div class="container-b">
-        <button class="left" onclick="backward()">&#8678;</button>
-        <div id="breadcrumbing1"></div>
-        <div class="breadcrumbing2"></div>
-        <div class="breadcrumbing3"></div>
-        <button class="right" onclick="forward()">&#8680;</button>
+        <button class="left" id="left" onclick="backward()">&#8678;</button>
+        <div class="breadcrumbing1" id="breadcrumbOne"></div>
+        <div class="breadcrumbing2" id="breadcrumbTwo"></div>
+        <div class="breadcrumbing3" id="breadcrumbThree"></div>
+        <button class="right" id="right" onclick="forward()">&#8680;</button>
       </div>
 
         <footer id="footer">
