@@ -8,7 +8,7 @@ body {
   font-style: normal;
   font-weight: 100;
   padding: none;
-  height: 2000px;
+  height: 1000px;
 }
 /* Footer*/
 #footer{
@@ -29,7 +29,6 @@ body {
 .footerbilleder{
   padding-top: 5px;
   height: 25px;
-  max-width: 25px;
 }
   /* footer end*/
 
@@ -57,11 +56,8 @@ body {
   align-items: flex-start;
 }
 
-.Some {
-  max-width: 30px;
-  max-height: 30px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+#SoMe {
+  max-height: 15px;
 }
 
 #logo {
@@ -118,8 +114,9 @@ body {
 }
 
 .guidetext {
-  font-size: 3vw;
+  font-size: 15px;
   color: #00454E;
+  margin: 15px;
 }
 
 .breadcrumbing1 {
@@ -183,6 +180,8 @@ button:hover {
 #main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  max-width: 800px;
 }
 
 #overlay {
