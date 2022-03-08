@@ -8,7 +8,7 @@ body {
   font-style: normal;
   font-weight: 100;
   padding: none;
-  height: 2000px;
+  height: 900px;
 }
 /* Footer*/
 #footer{
@@ -80,12 +80,11 @@ body {
   width: 97%;
   height: 400px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 5px;
   margin-top: 5px;
+  border-radius: 10px;
   object-fit: cover;
-  border-radius: 1%;
+  object-position: left;
 }
 
 #preview2 {
