@@ -109,10 +109,9 @@ body {
 }
 
 .guidetitel {
-  align-self: center;
+  align-self: flex-end;
   color: #00454E;
   opacity: 80%;
-  text-align: center;
   text-decoration: underline;
   margin-left: auto;
   margin-right: auto;
