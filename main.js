@@ -31,7 +31,7 @@
 
   function on() {
     document.getElementById("overlay").style.display = "block";
-    alert("dette er en alert, er du glad Thomas?")
+    //alert("dette er en alert, er du glad Thomas?")
   }
 
   function off() {
