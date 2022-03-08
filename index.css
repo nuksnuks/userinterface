@@ -205,7 +205,6 @@ button:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 50px;
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -218,4 +217,8 @@ button:hover {
 #SoMe {
   max-width: 45px;
   max-height: 20px;
+}
+
+li {
+  list-style: none;
 }
