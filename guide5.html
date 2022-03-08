@@ -9,37 +9,38 @@
     <title></title>
   </head>
   <body>
-    <div id="overlay" onclick="off()">
-  <div id="text">Tough times never lasts!</div>
-</div>
     <div id="container">
       <div id="header">
-        <img id="logo" src="billeder/logo-its.png" alt="Guidens logo">
-        <h1 class="guidetitel"> Itsguide </h1>
-      </div>
-      <div id="main">
-        <img src="billeder/skole billede med logo.png" alt="preview" id="preview1">
-      </div>
-      <div id="menu">
-        <button onclick="document.location='guide.html'" class="knap" id="knap 1"> Kontakt Vejleder </button>
-        <button onclick="document.location='guide2.html'" class="knap" id="knap 2"> Find Klasselokale </button>
-        <button onclick="document.location='guide3.html'" class="knap" id="knap 3"> Se Lektier </button>
-        <button onclick="document.location='guide4.html'" class="knap" id="knap 4"> Se Klasseliste </button>
-        <button onclick="document.location='guide5.html'" class="knap" id="knap 5"> Find lokaler </button>
+        <img onclick="document.location='index.html'" id="logo" src="billeder/logo-its.png" alt="Guidens logo">
+        <h1 class="guidetitel"> Se Klasseliste </h1>
       </div>
 
+      <div id="main">
+        <img id="slideshow" name="slide">
+      </div>
+      
+      <div class="guidetext">
+        <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Illum sed officia nostrum mollitia alias nesciunt laboriosam inventore iusto,
+          dolores quod nemo aliquam consequatur consequuntur veniam.</b></p>
+      </div>
+
+      <div class="container-b">
+        <button class="left" id="left" onclick="backward()">&#8678;</button>
+        <div class="breadcrumbing1" id="breadcrumbOne"></div>
+        <div class="breadcrumbing2" id="breadcrumbTwo"></div>
+        <div class="breadcrumbing3" id="breadcrumbThree"></div>
+        <button class="right" id="right" onclick="forward()">&#8680;</button>
+      </div>
 
       <footer id="footer">
         <a href="index.html"><img src="billeder/footerbilleder/HOME BUTTON.png" class="footerbilleder"></a>
         <a href="https://www.facebook.com/ucl.dk/"><img src="billeder/footerbilleder/SPROG.png" class="footerbilleder"></a>
         <a href="https://ucl.itslearning.com/"><img src="billeder/footerbilleder/Itslearning-logo.png" class="footerbilleder"></a>
-        
-        <div onclick="on()" id="knap">
-          <img src="billeder/footerbilleder/QUESTIONMARK.png" alt="questionmark" class="footerbilleder">
-        </div>
-
+        <a href="https://www.facebook.com/ucl.dk/"><img src="billeder/footerbilleder/QUESTIONMARK.png" alt="questionmark" class="footerbilleder"></a>
         <a href="https://www.facebook.com/ucl.dk/"><img src="billeder/footerbilleder/SoMe (1).png" class="footerbilleder" id="SoMe"></a>
       </footer>
     </div>
+
   </body>
 </html>

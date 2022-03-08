@@ -8,7 +8,7 @@ body {
   font-style: normal;
   font-weight: 100;
   padding: none;
-  height: 2000px;
+  height: 900px;
 }
 /* Footer*/
 #footer{
@@ -102,6 +102,7 @@ body {
 .knap {
   color: #FEFEFE;
   font-family: proxima-nova;
+  font-weight: 500;
   background: #00454E;
   border: none;
   padding: 10px;
@@ -126,10 +127,11 @@ body {
 .guidetext {
   font-size: 3vw;
   color: #00454E;
+  margin: 15px;
 }
 
 .breadcrumbing1 {
-  height: 5vw;
+  height: 40px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
@@ -139,7 +141,7 @@ body {
 }
 
 .breadcrumbing2 {
-  height: 5vw;
+  height: 40px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
@@ -149,7 +151,7 @@ body {
 }
 
 .breadcrumbing3 {
-  height: 5vw;
+  height: 40px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
