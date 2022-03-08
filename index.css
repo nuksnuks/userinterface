@@ -29,7 +29,6 @@ body {
 .footerbilleder{
   padding-top: 5px;
   height: 25px;
-  max-width: 25px;
 }
   /* footer end*/
 
@@ -214,4 +213,9 @@ button:hover {
 
 #knap{
   border: none;
+}
+
+#SoMe {
+  max-width: 45px;
+  max-height: 20px;
 }
