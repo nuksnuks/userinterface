@@ -27,12 +27,7 @@
       breadcrumbs[i+1].style.backgroundColor = null;
     }
     window.onload = backward;
-<<<<<<< HEAD
-    
-=======
 
-//linje 32 til 39 er skrevet af David
->>>>>>> 836edbd32dda1d34ff811a1d410d897717995a43
   function on() {
     document.getElementById("overlay").style.display = "block";
     alert("dette er en alert, er du glad Thomas?")
