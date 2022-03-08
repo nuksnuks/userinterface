@@ -29,7 +29,6 @@ body {
 .footerbilleder{
   padding-top: 5px;
   height: 25px;
-  max-width: 25px;
 }
   /* footer end*/
 
@@ -116,6 +115,11 @@ body {
   text-decoration: underline;
   margin-left: auto;
   margin-right: auto;
+}
+
+#SoMe {
+  max-height: 20px;
+  max-width: 50px;
 }
 
 .guidetext {
