@@ -1,14 +1,13 @@
-// Guide 4
-const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour]
+const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour];
 
 var i = 0;
 const images = [
-  'billeder/Find_underviser1cropped.jpg',
-  'billeder/Find_underviser2cropped.jpg',
-  'billeder/Find_underviser3cropped.jpg',
-  'billeder/Find_underviser4cropped.jpg'
+  'billeder/guide4/find_klasseliste1cropped.jpg',
+  'billeder/guide4/find_klasseliste2cropped.jpg',
+  'billeder/guide4/find_klasseliste3cropped.jpg',
+  'billeder/guide4/find_klasseliste4cropped.jpg'
 ];
-
+  guideText()
   function forward(){
 
     if(i < images.length - 1){
@@ -17,6 +16,7 @@ const images = [
 
     document.slide.src = images[i];
     breadcrumbs[i].style.backgroundColor = "#00454E";
+    guideText()
   }
   window.onload = forward;
 
@@ -27,8 +27,37 @@ const images = [
     }
     document.slide.src = images[i];
     breadcrumbs[i+1].style.backgroundColor = null;
+    guideText()
   }
   window.onload = backward;
+
+function guideText(){
+
+  if(i == 0) {
+    document.getElementById("textOne").style.display = "block";
+    document.getElementById("textTwo").style.display = "none";
+    document.getElementById("textThree").style.display = "none";
+    document.getElementById("textFour").style.display = "none";
+  }
+  else if(i == 1) {
+    document.getElementById("textOne").style.display = "none";
+    document.getElementById("textTwo").style.display = "block";
+    document.getElementById("textThree").style.display = "none";
+    document.getElementById("textFour").style.display = "none";
+  }
+  else if(i == 2) {
+    document.getElementById("textOne").style.display = "none";
+    document.getElementById("textTwo").style.display = "none";
+    document.getElementById("textThree").style.display = "block";
+    document.getElementById("textFour").style.display = "none";
+  }
+  else if(i == 3) {
+    document.getElementById("textOne").style.display = "none";
+    document.getElementById("textTwo").style.display = "none";
+    document.getElementById("textThree").style.display = "none";
+    document.getElementById("textFour").style.display = "block";
+  }
+}
 
 function on() {
   document.getElementById("overlay").style.display = "block";
@@ -40,9 +69,3 @@ function off() {
 }
 
 breadcrumbOne.style.backgroundColor = "#00454E";
-
-// const backward = document.getElementById("left");
-// const forward = document.getElementById("right");
-// const breadcrumbOne = document.getElementsByClassName("breadcrumbing1");
-// const breadcrumbTwo = document.getElementById("breadcrumbTwo");
-// const breadcrumbThree = document.getElementById("breadcrumbThree");
