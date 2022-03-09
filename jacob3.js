@@ -3,9 +3,9 @@ const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree]
 
 var i = 0;
 const images = [
-  'billeder/placeholders/placeholder1.png',
-  'billeder/placeholders/placeholder2.png',
-  'billeder/placeholders/placeholder3.png'
+  "billeder/guide3/findlektier1.jpg",
+  "billeder/guide3/findlektier2.jpg",
+  "billeder/guide3/findlektier3.jpg"
 ];
 
   function forward(){
