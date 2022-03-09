@@ -45,7 +45,7 @@ body {
 .container-b {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #header {
@@ -121,7 +121,9 @@ body {
 .guidetext {
   font-size: 3vw;
   color: #00454E;
-  margin: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .breadcrumbing1 {
@@ -165,14 +167,14 @@ body {
 }
 
 .left {
-  margin-left: 20px;
+  margin-left: 10px;
   align-self: center;
   font-size: 5vw;
   border-style: none;
 }
 
 .right {
-  margin-right: 20px;
+  margin-right: 10px;
   align-self: center;
   font-size: 5vw;
   border-style: none;
@@ -243,9 +245,11 @@ button:hover {
   max-height: 20px;
 }
 #slideshow {
-  width: 440px;
+  width: 97%;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: top;
   height: 400px;
-  border-radius: 2%;
 }
 
 #textOne{
