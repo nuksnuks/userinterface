@@ -268,7 +268,7 @@ button {
   position: absolute;
   background-color: #fEfEfE;
   min-width: 50px;
-  bottom: 50px;
+  bottom: 60px;
   right: -7px;
   z-index: 1;
 }
