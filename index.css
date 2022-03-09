@@ -248,6 +248,7 @@ button:hover {
   border-radius: 2%;
 }
 
+<<<<<<< HEAD
 #textOne{
   display: none;
 }
@@ -263,3 +264,19 @@ button:hover {
 #textFour{
   display: none;
 }
+=======
+@media only screen and (min-width: 600px) {
+
+#menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+button {
+  margin: 5px;
+}
+}
+>>>>>>> 40ffcc956a2ad34ba06fd368959019fc90e1410e
