@@ -1,11 +1,12 @@
 // Guide 4
-const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree]
+const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour]
 
 var i = 0;
 const images = [
   'billeder/placeholders/placeholder1.png',
   'billeder/placeholders/placeholder2.png',
-  'billeder/placeholders/placeholder3.png'
+  'billeder/placeholders/placeholder3.png',
+  'billeder/ttnl.jpg'
 ];
 
   function forward(){
