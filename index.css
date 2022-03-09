@@ -108,7 +108,7 @@ body {
   border: none;
   padding: 10px;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .guidetitel {
@@ -222,6 +222,18 @@ button:hover {
   -ms-transform: translate(-50%,-50%);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #00454E;
+  padding: 10px;
+  border-radius: 5px;
+}
+.grid-item {
+  padding: 3vw;
+  text-align: center;
+}
+
 #knap{
   border: none;
 }
@@ -229,8 +241,4 @@ button:hover {
 #SoMe {
   max-width: 45px;
   max-height: 20px;
-}
-
-li {
-  list-style: none;
 }
