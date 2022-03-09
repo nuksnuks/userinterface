@@ -50,10 +50,8 @@ body {
 
 #header {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin-left: 10px;
   margin-right: 10px;
 }
