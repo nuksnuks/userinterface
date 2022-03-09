@@ -247,3 +247,19 @@ button:hover {
   height: 400px;
   border-radius: 2%;
 }
+
+#textOne{
+  display: none;
+}
+
+#textTwo{
+  display: none;
+}
+
+#textThree{
+  display: none;
+}
+
+#textFour{
+  display: none;
+}
