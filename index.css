@@ -45,7 +45,7 @@ body {
 .container-b {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #header {
@@ -78,18 +78,6 @@ body {
   border-radius: 1%;
 }
 
-#preview2 {
-  width: 97%;
-  height: 325px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  object-fit: cover;
-  border-radius: 1%;
-}
-
 #menu {
   display: flex;
   flex-direction: column;
@@ -101,7 +89,8 @@ body {
 .knap {
   color: #FEFEFE;
   font-family: proxima-nova;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 20px;
   background: #00454E;
   border: none;
   padding: 10px;
@@ -117,51 +106,50 @@ body {
 }
 
 .guidetext {
-  font-size: 3vw;
+  font-size: 20px;
   color: #00454E;
+  margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
 }
 
 .breadcrumbing1 {
-  height: 40px;
+  height: 25px;
   width: 15vw;
   border: #00454E;
   border-style: solid;
   margin-top: 5px;
   border-radius: 5px;
-  border-width: 3px;
 }
 
 .breadcrumbing2 {
-  height: 40px;
+  height: 25px;
   width: 15vw;
-  border: #00454E;
+  background-color: #00454E20;
+  border: #00454E20;
   border-style: solid;
   margin-top: 5px;
   border-radius: 5px;
-  border-width: 3px;
 }
 
 .breadcrumbing3 {
-  height: 40px;
+  height: 25px;
   width: 15vw;
-  border: #00454E;
+  background-color: #00454E20;
+  border: #00454E20;
   border-style: solid;
   margin-top: 5px;
   border-radius: 5px;
-  border-width: 3px;
 }
 
 .breadcrumbing4 {
-  height: 40px;
+  height: 25px;
   width: 15vw;
-  border: #00454E;
+  background-color: #00454E20;
+  border: #00454E20;
   border-style: solid;
   margin-top: 5px;
   border-radius: 5px;
-  border-width: 3px;
 }
 
 .left {
@@ -169,6 +157,7 @@ body {
   align-self: center;
   font-size: 5vw;
   border-style: none;
+  height: 30px;
 }
 
 .right {
@@ -185,13 +174,9 @@ button {
   margin-top: 4px;
 }
 
-button:hover {
-  background-color: antiquewhite;
-  color:#00454E;
-}
-
 #slideshow {
   width: 95%;
+  margin-top: 5px;
 }
 
 #main {
