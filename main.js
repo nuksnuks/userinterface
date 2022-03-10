@@ -24,9 +24,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-// const backward = document.getElementById("left");
-// const forward = document.getElementById("right");
-// const breadcrumbOne = document.getElementsByClassName("breadcrumbing1");
-// const breadcrumbTwo = document.getElementById("breadcrumbTwo");
-// const breadcrumbThree = document.getElementById("breadcrumbThree");

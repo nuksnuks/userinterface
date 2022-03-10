@@ -1,4 +1,11 @@
-// Guide 4
+// const backward = document.getElementById("left");
+// const forward = document.getElementById("right");
+// const breadcrumbOne = document.getElementsByClassName("breadcrumbOne");
+// const breadcrumbTwo = document.getElementById("breadcrumbTwo");
+// const breadcrumbThree = document.getElementById("breadcrumbThree");
+// const breadcrumbFour = document.getElementById("breadcrumbFour");
+// const breadcrumbFive = document.getElementById("breadcrumbFive");
+
 const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour, breadcrumbFive]
 
 var i = 0;
