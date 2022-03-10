@@ -2,10 +2,10 @@ const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFo
 
 var i = 0;
 const images = [
-  'billeder/guide2/Findunderviserdone1.jpg',
-  'billeder/guide2/Findunderviserdone2.jpg',
-  'billeder/guide2/Findunderviserdone3.jpg',
-  'billeder/guide2/Findunderviserdone4.jpg'
+  'billeder/guide2/Findunderviserdone2.png',
+  'billeder/guide2/Findunderviserdone1.png',
+  'billeder/guide2/Findunderviserdone3.png',
+  'billeder/guide2/Findunderviserdone4.png'
 ];
   guideText()
   function forward(){

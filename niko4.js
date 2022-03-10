@@ -3,10 +3,10 @@ const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFo
 
 var i = 0;
 const images = [
-  'billeder/guide4/find_klasseliste1cropped.jpg',
-  'billeder/guide4/find_klasseliste2cropped.jpg',
-  'billeder/guide4/find_klasseliste3cropped.jpg',
-  'billeder/guide4/find_klasseliste4cropped.jpg'
+  'billeder/guide4/find_klasseliste1cropped.png',
+  'billeder/guide4/find_klasseliste2cropped.png',
+  'billeder/guide4/find_klasseliste3cropped.png',
+  'billeder/guide4/find_klasseliste4cropped.png'
 ];
   guideText()
   function forward(){
