@@ -164,24 +164,24 @@ body {
 }
 
 .left {
-  margin-left: 10px;
   font-size: 25px;
   border-style: none;
   height: 40px;
 }
 
 .right {
-  margin-right: 10px;
   font-size: 25px;
   border-style: none;
   height: 40px;
 }
 
 button {
-  background-color: #00454E;
+  background-color: #00454E00;
   color: #FEFEFE;
-  border-radius: 5px;
-  margin-top: 4px;
+  border: 0px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #slideshow {
