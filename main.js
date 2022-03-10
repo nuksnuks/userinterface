@@ -7,8 +7,6 @@
     document.getElementById("overlay").style.display = "none";
   }
 
-  breadcrumbOne.style.backgroundColor = "#00454E";
-
   function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
