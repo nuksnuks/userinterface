@@ -179,7 +179,7 @@ button {
   background-color: #00454E00;
   color: #FEFEFE;
   border: 0px;
-  margin-top: px;
+  margin-top: 0px;
 }
 
 #slideshow {
@@ -279,7 +279,7 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fEfEfE;
+  background-color: #E4F1F0;
   min-width: 50px;
   bottom: 60px;
   right: -7px;
