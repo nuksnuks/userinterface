@@ -235,20 +235,50 @@ button {
   display: none;
 }
 
+#textOne::before{
+  content: "STEP 1:";
+  font-weight: bold;
+  display: block;
+}
+
 #textTwo{
   display: none;
+}
+
+#textTwo::before{
+  content: "STEP 2:";
+  font-weight: bold;
+  display: block;
 }
 
 #textThree{
   display: none;
 }
 
+#textThree::before{
+  content: "STEP 3:";
+  font-weight: bold;
+  display: block;
+}
+
 #textFour{
   display: none;
 }
 
+#textFour::before{
+  content: "STEP 4:";
+  font-weight: bold;
+  display: block;
+}
+
 #textFive{
   display: none;
+}
+
+#textFive::before{
+  content: "STEP 5:";
+  font-weight: bold;
+  display: block;
 }
 
 .dropbtn {
