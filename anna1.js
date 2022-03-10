@@ -6,15 +6,14 @@
 // const breadcrumbFour = document.getElementById("breadcrumbFour");
 // const breadcrumbFive = document.getElementById("breadcrumbFive");
 
-const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour, breadcrumbFive]
+const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour,]
 
 var i = 0;
 const images = [
   'billeder/guide1/guide1_step2.png',
   'billeder/guide1/guide1_step1.png',
   'billeder/guide1/guide1_step3.png',
-  'billeder/guide1/guide1_step4.png',
-  'billeder/guide1/guide1_step5.png'
+  'billeder/guide1/guide1_step4.png'
 ];
 
 guideText()

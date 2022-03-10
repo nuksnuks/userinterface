@@ -225,7 +225,7 @@ button {
 }
 #slideshow {
   width: 97%;
-  border-radius: 5px;
+  border-radius: 10px;
   object-fit: cover;
   object-position: top;
   height: 400px;
