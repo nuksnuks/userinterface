@@ -297,7 +297,8 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #E4F1F0;
+  background-color: #ffffff;
+  border-radius: 5px;
   min-width: 50px;
   bottom: 60px;
   right: -15px;
