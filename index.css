@@ -300,13 +300,14 @@ button {
   background-color: #E4F1F0;
   min-width: 50px;
   bottom: 60px;
-  right: -7px;
+  right: -15px;
   z-index: 1;
 }
 
 .dropdown-content a {
   margin: 10px;
   display: block;
+  margin-right:55%;
 }
 
 #left {
@@ -328,5 +329,5 @@ button {
 .show {display: block;}
 
 input {
-  margin-top: 5px;
+  margin-top: 8spx;
 }
