@@ -294,3 +294,7 @@ button {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+input {
+  margin-top: 5px;
+}
