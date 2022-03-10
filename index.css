@@ -153,6 +153,16 @@ body {
   border-radius: 5px;
 }
 
+.breadcrumbing5 {
+  height: 40px;
+  width: 15vw;
+  background-color: #00454E20;
+  border: #00454E20;
+  border-style: solid;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
 .left {
   margin-left: 10px;
   font-size: 25px;
@@ -248,6 +258,10 @@ button {
 }
 
 #textFour{
+  display: none;
+}
+
+#textFive{
   display: none;
 }
 
