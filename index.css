@@ -178,9 +178,9 @@ body {
 }
 
 button {
-  background-color: #00454E;
+  background-color: #00454E00;
   color: #FEFEFE;
-  border-radius: 5px;
+  border: 0px;
   margin-top: 4px;
 }
 
