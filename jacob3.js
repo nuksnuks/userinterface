@@ -1,4 +1,3 @@
-// Guide 4
 const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree]
 
 var i = 0;
@@ -7,27 +6,49 @@ const images = [
   "billeder/guide3/findlektier2.jpg",
   "billeder/guide3/findlektier3.jpg"
 ];
+guideText()
+function forward(){
 
-  function forward(){
-
-    if(i < images.length - 1){
-      i++;
-    }
-
-    document.slide.src = images[i];
-    breadcrumbs[i].style.backgroundColor = "#00454E";
+  if(i < images.length - 1){
+    i++;
   }
-  window.onload = forward;
 
-  function backward(){
-      i--;
-    if(i < 0){
-      i = 0
-    }
-    document.slide.src = images[i];
-    breadcrumbs[i+1].style.backgroundColor = null;
+  document.slide.src = images[i];
+  breadcrumbs[i].style.backgroundColor = "#00454E";
+  guideText()
+}
+window.onload = forward;
+
+function backward(){
+    i--;
+  if(i < 0){
+    i = 0
   }
-  window.onload = backward;
+  document.slide.src = images[i];
+  breadcrumbs[i+1].style.backgroundColor = null;
+  guideText()
+}
+
+window.onload = backward;
+
+  function guideText(){
+
+    if(i == 0) {
+      document.getElementById("textOne").style.display = "block";
+      document.getElementById("textTwo").style.display = "none";
+      document.getElementById("textThree").style.display = "none";
+    }
+    else if(i == 1) {
+      document.getElementById("textOne").style.display = "none";
+      document.getElementById("textTwo").style.display = "block";
+      document.getElementById("textThree").style.display = "none";
+    }
+    else if(i == 2) {
+      document.getElementById("textOne").style.display = "none";
+      document.getElementById("textTwo").style.display = "none";
+      document.getElementById("textThree").style.display = "block";
+    }
+  }
 
 function on() {
   document.getElementById("overlay").style.display = "block";
