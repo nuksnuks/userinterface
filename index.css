@@ -224,8 +224,8 @@ button {
   max-height: 20px;
 }
 #slideshow {
-  width: 97%;
-  border-radius: 5px;
+  width: 95%;
+  border-radius: 10px;
   object-fit: cover;
   object-position: top;
   height: 400px;
@@ -292,6 +292,7 @@ button {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 3px;
 }
 
 .dropdown-content {
@@ -301,7 +302,7 @@ button {
   border-radius: 5px;
   min-width: 50px;
   bottom: 60px;
-  right: -15px;
+  right: -12px;
   z-index: 1;
 }
 
