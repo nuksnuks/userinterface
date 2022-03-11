@@ -77,6 +77,9 @@ window.onclick = function(event) {
     }
   }
 }
+function alertknap(){
+  alert("Gå på startsiden af Itslearning for at følge guiden")
+}
 
 // const backward = document.getElementById("left");
 // const forward = document.getElementById("right");
