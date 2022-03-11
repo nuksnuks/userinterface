@@ -1,4 +1,7 @@
 // Guide 4
+
+console.log("Denne Besked Fortæller om Javascript køre");
+
 const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour];
 
 var i = 0;
