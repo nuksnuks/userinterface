@@ -1,3 +1,5 @@
+console.log("Javascript linket til HTML")
+
 const breadcrumbs = [breadcrumbOne, breadcrumbTwo, breadcrumbThree, breadcrumbFour];
 
 var i = 0;
@@ -87,4 +89,8 @@ window.onclick = function(event) {
       }
     }
   }
+}
+
+function alertknap(){
+  alert("Gå på startsiden af Itslearning for at følge guiden")
 }

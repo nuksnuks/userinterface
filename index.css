@@ -334,3 +334,10 @@ button {
 input {
   margin-top: 8spx;
 }
+
+#easteregg{
+  width: 10px;
+  height: 10px;
+  color: black;
+  background-color: #E4F1F0;
+}
