@@ -7,7 +7,7 @@ body {
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 100;
-  padding: none;
+  padding: 0px;
   height: 900px;
 }
 /* Footer*/
@@ -332,7 +332,7 @@ button {
 .show {display: block;}
 
 input {
-  margin-top: 8spx;
+  margin-top: 8px;
 }
 
 #easteregg{
