@@ -11,29 +11,29 @@ const images = [
   'billeder/guide4/find_klasseliste3cropped.png',
   'billeder/guide4/find_klasseliste4cropped.png'
 ];
+guideText()
+function forward(){
+
+  if(i < images.length - 1){
+    i++;
+  }
+
+  document.getElementById("slideshow").src = images[i];
+  breadcrumbs[i].style.backgroundColor = "#00454E";
   guideText()
-  function forward(){
+}
+window.onload = forward;
 
-    if(i < images.length - 1){
-      i++;
-    }
-
-    document.slide.src = images[i];
-    breadcrumbs[i].style.backgroundColor = "#00454E";
-    guideText()
+function backward(){
+    i--;
+  if(i < 0){
+    i = 0
   }
-  window.onload = forward;
-
-  function backward(){
-      i--;
-    if(i < 0){
-      i = 0
-    }
-    document.slide.src = images[i];
-    breadcrumbs[i+1].style.backgroundColor = null;
-    guideText()
-  }
-  window.onload = backward;
+  document.getElementById("slideshow").src = images[i];
+  breadcrumbs[i+1].style.backgroundColor = null;
+  guideText()
+}
+window.onload = backward;
 
 function guideText(){
 

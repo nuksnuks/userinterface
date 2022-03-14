@@ -13,7 +13,7 @@ function forward(){
     i++;
   }
 
-  document.slide.src = images[i];
+  document.getElementById("slideshow").src = images[i];
   breadcrumbs[i].style.backgroundColor = "#00454E";
   guideText()
 }
@@ -24,14 +24,13 @@ function backward(){
   if(i < 0){
     i = 0
   }
-  document.slide.src = images[i];
+  document.getElementById("slideshow").src = images[i];
   breadcrumbs[i+1].style.backgroundColor = null;
   guideText()
 }
-
 window.onload = backward;
 
-  function guideText(){
+function guideText(){
 
     if(i == 0) {
       document.getElementById("textOne").style.display = "block";

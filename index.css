@@ -341,6 +341,6 @@ input {
   color: black;
   background-color: #E4F1F0;
 }
-.dropbtn{
-  width: 25px;
+#dropbtn{
+  max-width: 25px;
 }
